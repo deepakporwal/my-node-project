@@ -1,0 +1,17 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "A sample Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "static": "serve -p 5050 static"
+  },
+  "author": "deepak porwal",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.3.2",
+    "fastify-cli": "^7.4.0",
+    "serve": "^14.2.4"
+  }
+}
